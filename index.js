@@ -7,8 +7,9 @@ if (str[i].length <= 3) {
 } else if (str[i].length > 3) {
   let template = str[i].slice(0, 3);
   console.log(`We put the ${template} in ${str[i]}`);
-}}
-}
+} //else
+} //for
+} //function
 lastThreeCharacters(["sunshine", "moonbeam", "sky", "nebula"]);
 /*b) Retrieve only the last character from strings with lengths of 3 or less.
 c) Retrieve only the first 3 characters from strings with lengths larger than 3. 
